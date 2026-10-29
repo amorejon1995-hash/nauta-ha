@@ -1,0 +1,34 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Configurar Nauta ETECSA Autologin",
+        "description": "Introduce tus credenciales de Nauta. El componente verificará la conexión a internet periódicamente y realizará el inicio de sesión si se cae.",
+        "data": {
+          "username": "Usuario de Nauta (ej: usuario@nauta.co.cu o usuario@nautaplus)",
+          "password": "Contraseña",
+          "interval": "Intervalo de comprobación (segundos)"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "No se pudo comprobar la conexión."
+    },
+    "abort": {
+      "already_configured": "Este usuario de Nauta ya está configurado."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Actualizar cuenta Nauta",
+        "description": "Las cuentas Nauta son temporales. Usa este formulario para cargar una cuenta nueva (usuario y contraseña) cuando la anterior se agote, sin necesidad de eliminar la integración. Al guardar, el autologin se reactiva automáticamente.",
+        "data": {
+          "username": "Usuario de Nauta nuevo",
+          "password": "Contraseña nueva",
+          "interval": "Intervalo de comprobación (segundos)"
+        }
+      }
+    }
+  }
+}

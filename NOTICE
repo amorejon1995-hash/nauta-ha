@@ -1,0 +1,10 @@
+NOTICE — protocol lineage
+
+The Nauta captive-portal login flow implemented here (CSRFHW token handling
+and the LoginServlet / LogoutServlet / EtecsaQueryServlet endpoints at
+secure.etecsa.net:8443) follows the behaviour of ETECSA's own portal and the
+community reverse engineering documented by the luci-app-nauta project
+(https://github.com/cuza/luci-app-nauta), which the original manifest of
+this integration cited as its documentation source. This Home Assistant
+integration is an independent implementation written for Home Assistant;
+it is not affiliated with ETECSA.
